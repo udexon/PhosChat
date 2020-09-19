@@ -116,6 +116,8 @@ S[S.length-1].response
 
 <img src="https://github.com/udexon/PhosChat/blob/master/img/B_foxy_nick.png" width=400>
 
+`B("foxy nick")` follows Reverse Polish Notation convention, where `foxy` is pushed on to the stack first, then `nick` is executed.
+
 `NN` is part of `AUTH` array as returned by AJAX `.response`.
 
 ```
@@ -128,4 +130,8 @@ AUTH' => array (
 We chose `foxy` as the nickname as we are using Firefox for this user.
 
 To simulate another user, we will be using Chromium browser and thus nickname `chromy`.
+
+<img src="https://github.com/udexon/PhosChat/blob/master/img/Chat_Start_Chromium.png" width=400>
+
+<img src="https://github.com/udexon/PhosChat/blob/master/img/B_chromy_nick.png" width=400>
 
