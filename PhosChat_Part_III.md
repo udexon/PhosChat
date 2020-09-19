@@ -1,31 +1,25 @@
 
-#### (4) `foxy` sends `chromy` a message
+#### (5) `chromy` sends `foxy` a message
 
-In `foxy`'s browser console:
+To reciprocate, `chromy` sends `foxy` a message
+
+In `chromy`'s browser console:
 
 ```js
-CHAT("chromy", "hello chromy")
+CHAT("foxy", "open sesame")
 ```
 where the first argument is the recipient's nickname, the second argument the message to be sent.
 
 
-<img src="https://github.com/udexon/PhosChat/blob/master/img/Chat_foxy.png" width=400>
+<img src="https://github.com/udexon/PhosChat/blob/master/img/Chat_chromy.png" width=400>
 
-In `foxy` console, the timestamp is `2020-09-19T13:50:32.567Z`.
+In `chromy` console, the timestamp is `2020-09-19T14:08:02.546Z`.
 
-<img src="https://github.com/udexon/PhosChat/blob/master/img/SSE_Chromium.png" width=400>
+<img src="https://github.com/udexon/PhosChat/blob/master/img/SSE_Firefox.png" width=400>
 
-Server Side Event sends the message to the front end for `chromy` at `Sat, 19 Sep 2020 21:50:34 +0800`:
-
-```
-The server time is: Sat, 19 Sep 2020 21:50:34 +0800 shm 6
-NN=chromy file ../auth/log/chat_foxy_20200919_215033 watch ../auth/log/chat_foxy_20200919_215033:20200919_215033 foxy {"to":"chromy","msg":"hello chromy"}
-```
-
-`../auth/log/chat_foxy_20200919_215033` is the temporary file used to save the message.
-
-The message is encoded as a JSON string with timestamp and sender's nickname:
+Server Side Event sends the message to the front end for `foxy` at `Sat, 19 Sep 2020 22:08:03 +0800`:
 
 ```
-20200919_215033 foxy {"to":"chromy","msg":"hello chromy"}
+The server time is: Sat, 19 Sep 2020 22:08:03 +0800 shm 6
+NN=foxy file ../auth/log/chat_chromy_20200919_220802 watch ../auth/log/chat_chromy_20200919_220802:20200919_220802 chromy {"to":"foxy","msg":"open sesame"}
 ```
