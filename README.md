@@ -11,3 +11,4 @@ The term "decentralized" has been "hijacked and abused" by blockchain advocates 
 Blockchain is just a very clumsy way to do decentralized data base.
 
 Hydergraph overcomes many design flaws in block chain and cryptocurrencies from the most fundamental level.
+
