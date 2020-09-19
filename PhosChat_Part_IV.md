@@ -16,7 +16,7 @@ CHAT("chromy", "priviet comrade")
 where the first argument is the recipient's nickname, the second argument the message to be sent.
 
 
-<img src="https://github.com/udexon/PhosChat/blob/master/img/Chat_foxy.png" width=400>
+<img src="https://github.com/udexon/PhosChat/blob/master/img/Chat_groovy.png" width=400>
 
 In `groovy` console, the timestamp is `2020-09-19T14:20:45.800Z`.
 
