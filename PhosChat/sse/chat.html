@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?= 3+4 ?>
+
+<h1>Getting server updates</h1>
+<div id="result"></div>
+
+
+
+<script>
+
+var url_string = location.href
+var url = new URL(url_string);
+var NN=url.searchParams.get("NN")
+
+if(typeof(EventSource) !== "undefined") {
+  // var source = new EventSource("./demo_sse.php");
+  var source = new EventSource("./chat.php?NN="+NN);
+  source.onmessage = function(event) {
+    document.getElementById("result").innerHTML += event.data + "<br>";
+  };
+} else {
+  document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";
+}
+</script>
+
+</body>
+</html>
