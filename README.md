@@ -37,7 +37,7 @@ https://github.com/udexon/PhosChat/tree/master/PhosChat/auth
 1. `phos.js`
 2. `phos.php`
 
-We have not made use of any GUI element, but instead used on pure JavaScript to accomplish the decentralized user authentication (DUA) as well as sending of messages to the back end.
+We have not made use of any GUI element, but instead used only pure JavaScript to accomplish the decentralized user authentication (DUA) as well as sending of messages to the back end.
 
 #### (B)
 
@@ -69,3 +69,34 @@ In the JavaScript front end, there is a corresponding stack variable `S`.
 The AJAX `.response` results are shown below:
 
 <img src="https://github.com/udexon/PhosChat/blob/master/img/B_SESSION.png" width=400>
+
+Readers familiar with Forth may find the screenshot familiar yet unfamiliar. During initialization, `$_SESSION` is loaded with Phoscript _aliases_ or _Colon Definition Words_, the Forth equivalent of high level functions, which are in turn made up of low level functions. 
+
+
+#### (2) Decentralized User Authentication
+
+Readers unfamiliar with Forth aliases or CDW need not worry at this stage, as the most important thing of concern is the `AUTH` array used for authentication, which is apparently absent from the AJAX `.response` results. This is expected as we have yet to accomplish the Decentralized User Authentication (DUA).
+
+DUA has been described in detailed in:
+- https://github.com/udexon/Hydergraph
+
+This is perhaps the most important step in this whole tutorial as it is the core of the novelties of PhosChat. The commands to execute are:
+
+```js
+c = new JSEncrypt()
+B_AUTH( c )
+B("SESSION: s:")
+S[S.length-1].response
+```
+
+<img src="https://github.com/udexon/PhosChat/blob/master/img/B_AUTH.png" width=400>
+
+We now see that AJAX `.response` gives:
+
+```
+'AUTH' => array ( 'SP' => '81d1560e', 'PASS' => '20200919_193005', ), ), )
+```
+
+`SP` is the "secret phrase" used by PHP back end to challenge the front end, to prove that it is the legitimate owner of the private key capable of decrypting the encrypted secret phrase. In this case, it is a hexadecimal of 4 random bytes. The length of the secret phrase can of course be increased to improve the strength of security.
+
+`PASS` is the timestamp when DUA is passed, which can be used for timing out the current session.
