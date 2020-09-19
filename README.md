@@ -24,7 +24,7 @@ In this article, we shall demonstrate a simple Decentralized Chat application ba
 
 http://localhost/devel/PhosChat/auth/phos.html
 
-<img src="https://github.com/udexon/PhosChat/blob/master/img/Chat_Start.png" width=600>
+<img src="https://github.com/udexon/PhosChat/blob/master/img/Chat_Start.png" width=400>
 
 We would first like to apologize to readers as the text in `phos.html` page is not directly related to PhosChat as described in this article. This page has been retained during the development to test the continuity of various packages used.
 
@@ -68,4 +68,4 @@ In the JavaScript front end, there is a corresponding stack variable `S`.
 
 The AJAX `.response` results are shown below:
 
-<img src="https://github.com/udexon/PhosChat/blob/master/img/B_SESSION.png" width=600>
+<img src="https://github.com/udexon/PhosChat/blob/master/img/B_SESSION.png" width=400>
