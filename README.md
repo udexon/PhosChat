@@ -22,10 +22,24 @@ We demonstrated DUA using AJAX.
 
 In this article, we shall demonstrate a simple Decentralized Chat application based on (2).
 
+http://localhost/devel/PhosChat/auth/phos.html
 
-'''js
+<img src="https://github.com/udexon/PhosChat/blob/master/img/Chat_Start.png" width=600>
+
+We would first like to apologize to readers as the text in `phos.html` page is not directly related to PhosChat as described in this article. This page has been retained during the development to test the continuity of various packages used.
+
+The most relevant files used in PhosChat are:
+
+1. `phos.js`
+2. `phos.php`
+
+We have not made use of any GUI element, but instead used on pure JavaScript to accomplish the decentralized user authentication (DUA) as well as sending of messages to the back end.
+
+Incoming messages are displayed via the Server Side Event protocol in `./sse` directory.
+
+```js
 B("SESSION: s:")
 S[S.length-1].response
-'''
+```
 
 <img src="https://github.com/udexon/PhosChat/blob/master/img/B_SESSION.png" width=600>
