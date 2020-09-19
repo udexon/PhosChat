@@ -1,4 +1,4 @@
-# PhosChat: A Revolutionary "Decentralized (non-Blockchain)" (DxBC) Chat System
+# PhosChat: A Revolutionary "Decentralized without Blockchain" (DxBC) Chat System
 
 II: Decentralized User Authentication
 
