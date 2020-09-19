@@ -12,3 +12,6 @@ Blockchain is just a very clumsy way to do decentralized data base.
 
 Hydergraph overcomes many design flaws in block chain and cryptocurrencies from the most fundamental level.
 
+https://github.com/udexon/Hydergraph
+
+https://github.com/udexon/XIDT/blob/master/Greet_Secret_Phrase.md
