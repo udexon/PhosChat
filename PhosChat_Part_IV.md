@@ -26,6 +26,8 @@ Server Side Event sends the message to the front end for `chromy` at `Sat, 19 Se
 
 ```
 The server time is: Sat, 19 Sep 2020 22:20:48 +0800 shm 6
-NN=chromy file ../auth/log/chat_groovy_20200919_222046 watch ../auth/log/chat_groovy_20200919_222046:20200919_222046 groovy {"to":"chromy","msg":"priviet comrade"}
+NN=chromy file ../auth/log/chat_groovy_20200919_222046 
+watch ../auth/log/chat_groovy_20200919_222046:
+20200919_222046 groovy {"to":"chromy","msg":"priviet comrade"}
 ```
 
