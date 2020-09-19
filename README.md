@@ -23,3 +23,9 @@ We demonstrated DUA using AJAX.
 In this article, we shall demonstrate a simple Decentralized Chat application based on (2).
 
 
+'''js
+B("SESSION: s:")
+S[S.length-1].response
+'''
+
+<img src="https://github.com/udexon/PhosChat/blob/master/img/B_SESSION.png" width=600>
