@@ -100,3 +100,32 @@ We now see that AJAX `.response` gives:
 `SP` is the "secret phrase" used by PHP back end to challenge the front end, to prove that it is the legitimate owner of the private key capable of decrypting the encrypted secret phrase. In this case, it is a hexadecimal representation of 4 random bytes. The length of the secret phrase can of course be increased to improve the strength of security.
 
 `PASS` is the timestamp when DUA is passed, which can be used for timing out the current session.
+
+
+#### (3) Set Nickname (`NN`)
+
+Unlike Centralized User Authentication (CUA) systems, where the User-ID is a unique string approved and managed by a centralized administration system, in Decentralized User Authentication, a user may arbitrarily choose a _"nickname"_ (`NN`), which correspond to his (her) own unique public key (`PBK`), as a convenient label during chat.
+
+The only rule that PhosChat server needs to make sure is the uniqueness of the nickname.
+
+```js
+B("foxy nick")
+B("SESSION: s:")
+S[S.length-1].response
+```
+
+<img src="https://github.com/udexon/PhosChat/blob/master/img/B_foxy_nick.png" width=400>
+
+`NN` is part of `AUTH` array as returned by AJAX `.response`.
+
+```
+AUTH' => array ( 
+'SP' => 'c5fb97e7', 
+'PASS' => '20200919_211637', 
+'NN' => 'foxy', ), )
+```
+
+We chose `foxy` as the nickname as we are using Firefox for this user.
+
+To simulate another user, we will be using Chromium browser and thus nickname `chromy`.
+
