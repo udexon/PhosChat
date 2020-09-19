@@ -97,6 +97,6 @@ We now see that AJAX `.response` gives:
 'AUTH' => array ( 'SP' => '81d1560e', 'PASS' => '20200919_193005', ), ), )
 ```
 
-`SP` is the "secret phrase" used by PHP back end to challenge the front end, to prove that it is the legitimate owner of the private key capable of decrypting the encrypted secret phrase. In this case, it is a hexadecimal of 4 random bytes. The length of the secret phrase can of course be increased to improve the strength of security.
+`SP` is the "secret phrase" used by PHP back end to challenge the front end, to prove that it is the legitimate owner of the private key capable of decrypting the encrypted secret phrase. In this case, it is a hexadecimal representation of 4 random bytes. The length of the secret phrase can of course be increased to improve the strength of security.
 
 `PASS` is the timestamp when DUA is passed, which can be used for timing out the current session.
