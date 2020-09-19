@@ -12,6 +12,14 @@ Blockchain is just a very clumsy way to do decentralized data base.
 
 Hydergraph overcomes many design flaws in block chain and cryptocurrencies from the most fundamental level.
 
-https://github.com/udexon/Hydergraph
+1. https://github.com/udexon/XIDT/blob/master/Greet_Secret_Phrase.md
 
-https://github.com/udexon/XIDT/blob/master/Greet_Secret_Phrase.md
+We demonstrated DUA using Websocket.
+
+2. In https://github.com/udexon/Hydergraph
+
+We demonstrated DUA using AJAX.
+
+In this article, we shall demonstrate a simple Decentralized Chat application based on (2).
+
+
