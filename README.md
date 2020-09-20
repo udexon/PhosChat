@@ -37,6 +37,20 @@ Further, metaprogramming is also akin to human natural language, where we use wo
 - how non-programmers can learn to use spreadsheet quickly, which makes us introduce the pun "as easy as (Lotus) 1-2-3", to remind younger readers of the legendary spreadsheet program; and 
 - how a whole generation of engineers used HP (and other brands) Reverse Polish calculators for extremely complicated tasks before computers became a commodity.
 
+Coupled with DxBC (Decentralization WITHOUT Blockchain), we hope to use Phoscript to enable (quite literally) EVERYONE to build a new generation of Decentralized Web (PhosWeb) and Decentralized Cloud (PhosCloud) TOGETHER. Without Phoscript, conventional programming languages and frameworks are too difficult to learn and have the undeseriable effects of fragmenting programmers into rivalling camps.
+
+Can we clone the equivalent of Facebook within 2 years? We believe it is achievable using DxBC and Phoscript, as innovations in the likes of MAGA+F (Microsoft Apple Google Amazon Facebook) have slowed down as they matured. 
+
+If we call the cloning of proprietary Unix systems and tools in 1990s to produce GNU / Linux software, which became the foundation of the Internet infrastructure today, Free Software Revolution 1.0, then we may call cloning of MAGA+F in 2020s Free Software Revolution 2.0.
+
+We do not need to aim for innovations first, as they will arise naturally once we have cloned enough of old technologies.
+
+In the PhosChat example in Part [IV](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_IV.md), we demostrated that PhosChat operate via SSH tunnel. Based on this, we may build the prototype of PhosCloud, by connecting mobile devices and home computers AS SERVERS to the Internet using SSH tunnel, routed via VPS (virtual private servers) plans offered by various service providers at very low costs (e.g. USD 10 per month).
+
+PhosGraph, the decentralized graph database that stores the ___data and code___ of PhosWeb and PhosCloud, can be stored in a distributed manner in the PhosCloud nodes, which are essentially user's own mobile devices and home computers, as described above.
+
+_We look forward to welcoming you to join us in ___the Free Software Revolution 2.0___ &mdash; to build an alternative Internet infrastructure that is truly OWNED BY THE PEOPLE, and OPERATED BY THE PEOPLE._
+
 
 ## I: Decentralized User Authentication
 
