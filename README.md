@@ -11,7 +11,7 @@ Vitalik Buterin popularized the term "decentralized applications" in the now per
 
 From a different perspective, the term "decentralized" has been "hijacked and abused" by blockchain advocates in the past few years with some notable, but limited, progress. 
 
-Blockchain is just a very clumsy way to do decentralized data base.
+One may even say that blockchain is just a very clumsy way to do decentralized database.
 
 We adopted this term largely due to the fact that our framework has a common root with blockchain in asymmetric cryptography, and it modifies significantly one of the most fundamental step in network computing: user authentication.
 
@@ -19,9 +19,10 @@ Hence the name:
 
 - __DxBC: Decentralization WITHOUT Blockchain__
 
+
 ## I: Decentralized User Authentication
 
-1. In a previous article, we demonstrated "Decentralized User Authentication" using Hydergraph which overcomes many design flaws in block chain and cryptocurrencies from the most fundamental level:
+1. In a previous article, we demonstrated "Decentralized User Authentication" using Hydergraph which overcomes many design flaws in blockchain and cryptocurrencies from the most fundamental level:
 
 - https://github.com/udexon/Hydergraph
 
