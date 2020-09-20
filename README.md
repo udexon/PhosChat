@@ -1,4 +1,4 @@
-# PhosChat: A Revolutionary "Decentralized without Blockchain" (DxBC) Chat System
+# PhosChat: A Revolutionary "Decentralized WITHOUT Blockchain" (DxBC) Chat System
 
 - Parts: [I](https://github.com/udexon/PhosChat/blob/master/README.md) [II](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_II.md) [III](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_III.md) [IV](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_IV.md)
 
@@ -11,9 +11,13 @@ Vitalik Buterin popularized the term "decentralized applications" in the now per
 
 From a different perspective, the term "decentralized" has been "hijacked and abused" by blockchain advocates in the past few years with some notable, but limited, progress. 
 
+Blockchain is just a very clumsy way to do decentralized data base.
+
 We adopted this term largely due to the fact that our framework has a common root with blockchain in asymmetric cryptography, and it modifies significantly one of the most fundamental step in network computing: user authentication.
 
-Blockchain is just a very clumsy way to do decentralized data base.
+Hence the name:
+
+- __DxBC: Decentralization WITHOUT Blockchain__
 
 ## I: Decentralized User Authentication
 
