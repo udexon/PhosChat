@@ -2,8 +2,8 @@
 
 - Parts: [I](https://github.com/udexon/PhosChat/blob/master/README.md) [II](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_II.md) [III](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_III.md) [IV](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_IV.md)
 
-- [Phoscript Tutorials](https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md)
 
+### DxBC: Decentralization WITHOUT Blockchain
 
 Vitalik Buterin popularized the term "decentralized applications" in the now perhaps legendary blog published in 2014:
 
@@ -18,6 +18,11 @@ We adopted this term largely due to the fact that our framework has a common roo
 Hence the name:
 
 - __DxBC: Decentralization WITHOUT Blockchain__
+
+
+### Collaborative Development using Phoscript &mdash; a Universal Metaprogramming Script derived from Forth
+
+- [Phoscript Tutorials](https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md)
 
 
 ## I: Decentralized User Authentication
@@ -158,3 +163,4 @@ To simulate another user, we will be using Chromium browser and thus nickname `c
 
 <img src="https://github.com/udexon/PhosChat/blob/master/img/B_chromy_nick.png" width=400>
 
+- Parts: [I](https://github.com/udexon/PhosChat/blob/master/README.md) [II](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_II.md) [III](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_III.md) [IV](https://github.com/udexon/PhosChat/blob/master/PhosChat_Part_IV.md)
