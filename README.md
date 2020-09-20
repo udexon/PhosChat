@@ -22,7 +22,11 @@ Hence the name:
 
 ### Collaborative Development using Phoscript &mdash; a Universal Metaprogramming Script derived from Forth
 
+Another novel feature of this project is the deployment of Phoscript &mdash; a universal metaprogramming script derived from Forth.
+
 - [Phoscript Tutorials](https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md)
+
+By "universal metaprogramming script", we mean that Phoscript can be implemented as a shell script within any host programming language, ranging from C++, JavaScript to Rust, providing a Forth like Reverse Polish Notation / stack machine interface to the host programming language, function libraries and frameworks.
 
 
 ## I: Decentralized User Authentication
