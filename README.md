@@ -28,6 +28,15 @@ Another novel feature of this project is the deployment of Phoscript &mdash; a u
 
 By "universal metaprogramming script", we mean that Phoscript can be implemented as a shell script within any host programming language, ranging from C++, JavaScript to Rust, providing a Forth like Reverse Polish Notation / stack machine interface to the host programming language, function libraries and frameworks.
 
+In PhosChat, we demonstrate that how Phoscript can be used to interface to JavaScript front end and PHP back end, all using one universal metaprogramming script. 
+
+Although the term metaprogramming may sound abstract to many non-programmers or programmers alike, it is not difficult to pick up as we can all learn by examples. 
+
+Further, metaprogramming is also akin to human natural language, where we use words (which incidentally is also the Forth terminology for "function names") to represent "collections" of items. As such, we believe that even non-programmers will be able to learn Phoscript easily, much like:
+- how the Logo programming language was invented almost at the same time (1967) as Forth (public release 1968) to teach non-programmers computer graphics (2D turtle drawing lines); or 
+- how non-programmers can learn to use spreadsheet quickly, which makes us introduce the pun "as easy as (Lotus) 1-2-3", to remind younger readers of the legendary spreadsheet program; and 
+- how a whole generation of engineers used HP (and other brands) Reverse Polish calculators for extremely complicated tasks before computers became a commodity.
+
 
 ## I: Decentralized User Authentication
 
