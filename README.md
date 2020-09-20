@@ -4,35 +4,48 @@
 
 - [Phoscript Tutorials](https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md)
 
-II: Decentralized User Authentication
 
-Vitalik Buterin
+Vitalik Buterin popularized the term "decentralized applications" in the now perhaps legendary blog published in 2014:
 
-https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/
+- https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/
 
-The term "decentralized" has been "hijacked and abused" by blockchain advocates in the past few years with some notable, but limited, progress. We adopted this term largely due to the fact that our framework has a common root with blockchain in asymmetric cryptography, and it modifies significantly one of the most fundamental step in network computing: user authentication.
+From a different perspective, the term "decentralized" has been "hijacked and abused" by blockchain advocates in the past few years with some notable, but limited, progress. 
+
+We adopted this term largely due to the fact that our framework has a common root with blockchain in asymmetric cryptography, and it modifies significantly one of the most fundamental step in network computing: user authentication.
 
 Blockchain is just a very clumsy way to do decentralized data base.
 
-Hydergraph overcomes many design flaws in block chain and cryptocurrencies from the most fundamental level.
+## I: Decentralized User Authentication
 
-1. https://github.com/udexon/XIDT/blob/master/Greet_Secret_Phrase.md
+1. In a previous article, we demonstrated "Decentralized User Authentication" using Hydergraph which overcomes many design flaws in block chain and cryptocurrencies from the most fundamental level:
 
-We demonstrated DUA using Websocket.
+- https://github.com/udexon/Hydergraph
 
-2. In https://github.com/udexon/Hydergraph
+Here we demonstrated DUA using AJAX.
 
-We demonstrated DUA using AJAX.
 
-In this article, we shall demonstrate a simple Decentralized Chat application based on (2).
+2. In an earlier article, we demonstrated DUA using Websocket:
 
-http://localhost/devel/PhosChat/auth/phos.html
+- https://github.com/udexon/XIDT/blob/master/Greet_Secret_Phrase.md
+
+
+3. In this article, we shall demonstrate a simple Decentralized Chat application based on (1).
+
+The source code for this demo is available at:
+
+- https://github.com/udexon/PhosChat/tree/master/PhosChat
+
+To install, just unpack it to a localhost directory (on Ubuntu `/var/www/html/devel`).
+
+Then it can be accessed from a browser with:
+
+- http://localhost/devel/PhosChat/auth/phos.html
 
 <img src="https://github.com/udexon/PhosChat/blob/master/img/Chat_Start.png" width=400>
 
 We would first like to apologize to readers as the text in `phos.html` page is not directly related to PhosChat as described in this article. This page has been retained during the development to test the continuity of various packages used.
 
-#### (A) 
+#### (A) Module for Sending Messages
 
 The most relevant files used in PhosChat are:
 
@@ -43,13 +56,14 @@ https://github.com/udexon/PhosChat/tree/master/PhosChat/auth
 
 We have not made use of any GUI element, but instead used only pure JavaScript to accomplish the decentralized user authentication (DUA) as well as sending of messages to the back end.
 
-#### (B)
+#### (B) Displaying Messages using Server Side Events (SSE)
 
 https://github.com/udexon/PhosChat/tree/master/PhosChat/auth
 
-Incoming messages are displayed via the Server Side Event protocol in `./sse` directory.
+Incoming messages are displayed via the Server Side Events protocol with files `./sse` directory.
 
 We hope by demonstrating PhosChat with such minimal GUI interface, readers would understand that PhosChat is robust enough to be operational in any minimalist web environment, and that additional GUI can be added eventually.
+
 
 #### (1) Checking PHP `$_SESSION` variable
 
