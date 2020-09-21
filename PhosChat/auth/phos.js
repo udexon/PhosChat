@@ -34,6 +34,9 @@ function B() {
 
 function CHAT(target, msg)
 {
+
+    var d = new Date();
+    console.log(d.toISOString());
     // console.log( {msg: [ {target: target}, {msg: msg} ] } );
     // console.log( {target: target, msg: msg}  )
     var j = {to: target, msg: msg}
